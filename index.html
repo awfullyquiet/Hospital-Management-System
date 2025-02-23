@@ -3,20 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Hospital Management System</title>
   </head>
   <body>
-    <img src="icon.png" alt="" id="icon" />
-    
-      <nav>
-        <a href="appointment">Appointment</a>
-        <a href="">Pharmacy</a>
-        <a href="">Admin Dashboard</a>
-
-      </nav>
+    <nav class="navbar navbar-expand-sm">
+      <a class="navbar-brand" href="index.html"> <img src="icon.png" id="icon" alt=""> </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#expandstuff">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="expandstuff">
+        <div class="navbar-nav">
+           <a href="index.html" class="nav-item nav-link">Home</a>
+        <a href="services" class="nav-item nav-link">Services</a>
+        <a href="aboutus" class="nav-item nav-link">About Us</a>
+        <a href="contact" class="nav-item nav-link">Contact Us</a>
+        <a href="login" class="nav-item nav-link">Login</a>
+        <a href="appointment" class="nav-item nav-link">Appointment</a>
+        <a href="Pharmacy" class="nav-item nav-link">Pharmacy</a>
+        <a href="admin" class="nav-item nav-link">Admin Dashboard</a>
+        </div>
+      </div>
       
-   
-    
+    </nav>
+    <script src="bootstrap/jquery-3.7.1.slim.min.js" ></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>

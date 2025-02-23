@@ -1,2 +1,3 @@
-# Hospital-Management-System
+# Hospital Management System
+
 Hawri Kaam
